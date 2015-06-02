@@ -1,0 +1,72 @@
+{ "attractions":[
+                 {
+                 "attraction":"Sleeping Beauty's Castle",
+                 "category":"Attraction",
+                 "latitude":"33.81277",
+                 "longitude":"-117.91897",
+                 "description":"Don't touch the spindle!"
+                 },
+                 {
+                 "attraction":"Space Mountain",
+                 "category":"Ride",
+                 "latitude":"33.810998",
+                 "longitude":"-117.917529",
+                 "description":"Take a trip throug space."
+                 },
+                 {
+                 "attraction":"Splash Mountain",
+                 "category":"Ride",
+                 "latitude":"33.812139",
+                 "longitude":"-117.922377",
+                 "description":"You're going to get wet."
+                 },
+                 {
+                 "attraction":"Autopia",
+                 "category":"Ride",
+                 "latitude":"33.812599",
+                 "longitude":"-117.916458",
+                 "description":"Show off your driving skills."
+                 },
+                 {
+                 "attraction":"Pirates of the Carribbean",
+                 "category":"Ride",
+                 "latitude":"33.811246",
+                 "longitude":"-117920829",
+                 "description":"Arr!"
+                 },
+                 {
+                 "attraction":"It's A Small World",
+                 "category":"Ride",
+                 "latitude":"33.814580",
+                 "longitude":"-117.917866",
+                 "description":"A trip around the world."
+                 },
+                 {
+                 "attraction":"Haunted Mansion",
+                 "category":"Ride",
+                 "latitude":"33.811738",
+                 "longitude":"-117.922154",
+                 "description":"A ghostly ride."
+                 },
+                 {
+                 "attraction":"Big Thunder Mountain",
+                 "category":"Ride",
+                 "latitude":"33.812701",
+                 "longitude":"-117.920389",
+                 "description":"A roarin good time."
+                 },
+                 {
+                 "attraction":"Indiana Jones",
+                 "category":"Ride",
+                 "latitude":"33.811325",
+                 "longitude":"-117.920235",
+                 "description":"Exciting and fun."
+                 },
+                 {
+                 "attraction":"Matterhorn Bobsleds",
+                 "category":"Ride",
+                 "latitude":"33.813027",
+                 "longitude":"-117.917884",
+                 "description":"Come sled the alps."
+                 }
+                 ]}
