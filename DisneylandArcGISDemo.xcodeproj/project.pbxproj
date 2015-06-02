@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AF184D41B1D60EE00EF202A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF184D31B1D60EE00EF202A /* AppDelegate.swift */; };
+		1AF184D61B1D60EE00EF202A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF184D51B1D60EE00EF202A /* ViewController.swift */; };
+		1AF184D91B1D60EE00EF202A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF184D71B1D60EE00EF202A /* Main.storyboard */; };
+		1AF184DB1B1D60EE00EF202A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF184DA1B1D60EE00EF202A /* Images.xcassets */; };
+		1AF184DE1B1D60EE00EF202A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AF184DC1B1D60EE00EF202A /* LaunchScreen.xib */; };
+		1AF184EA1B1D60EE00EF202A /* DisneylandArcGISDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF184E91B1D60EE00EF202A /* DisneylandArcGISDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AF184E41B1D60EE00EF202A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AF184C61B1D60EE00EF202A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AF184CD1B1D60EE00EF202A;
+			remoteInfo = DisneylandArcGISDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AF184CE1B1D60EE00EF202A /* DisneylandArcGISDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneylandArcGISDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF184D21B1D60EE00EF202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF184D31B1D60EE00EF202A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AF184D51B1D60EE00EF202A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AF184D81B1D60EE00EF202A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AF184DA1B1D60EE00EF202A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AF184DD1B1D60EE00EF202A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1AF184E31B1D60EE00EF202A /* DisneylandArcGISDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneylandArcGISDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF184E81B1D60EE00EF202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF184E91B1D60EE00EF202A /* DisneylandArcGISDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneylandArcGISDemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AF184CB1B1D60EE00EF202A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF184E01B1D60EE00EF202A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AF184C51B1D60EE00EF202A = {
+			isa = PBXGroup;
+			children = (
+				1AF184D01B1D60EE00EF202A /* DisneylandArcGISDemo */,
+				1AF184E61B1D60EE00EF202A /* DisneylandArcGISDemoTests */,
+				1AF184CF1B1D60EE00EF202A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AF184CF1B1D60EE00EF202A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AF184CE1B1D60EE00EF202A /* DisneylandArcGISDemo.app */,
+				1AF184E31B1D60EE00EF202A /* DisneylandArcGISDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AF184D01B1D60EE00EF202A /* DisneylandArcGISDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1AF184D31B1D60EE00EF202A /* AppDelegate.swift */,
+				1AF184D51B1D60EE00EF202A /* ViewController.swift */,
+				1AF184D71B1D60EE00EF202A /* Main.storyboard */,
+				1AF184DA1B1D60EE00EF202A /* Images.xcassets */,
+				1AF184DC1B1D60EE00EF202A /* LaunchScreen.xib */,
+				1AF184D11B1D60EE00EF202A /* Supporting Files */,
+			);
+			path = DisneylandArcGISDemo;
+			sourceTree = "<group>";
+		};
+		1AF184D11B1D60EE00EF202A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AF184D21B1D60EE00EF202A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AF184E61B1D60EE00EF202A /* DisneylandArcGISDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AF184E91B1D60EE00EF202A /* DisneylandArcGISDemoTests.swift */,
+				1AF184E71B1D60EE00EF202A /* Supporting Files */,
+			);
+			path = DisneylandArcGISDemoTests;
+			sourceTree = "<group>";
+		};
+		1AF184E71B1D60EE00EF202A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AF184E81B1D60EE00EF202A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AF184CD1B1D60EE00EF202A /* DisneylandArcGISDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF184ED1B1D60EE00EF202A /* Build configuration list for PBXNativeTarget "DisneylandArcGISDemo" */;
+			buildPhases = (
+				1AF184CA1B1D60EE00EF202A /* Sources */,
+				1AF184CB1B1D60EE00EF202A /* Frameworks */,
+				1AF184CC1B1D60EE00EF202A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisneylandArcGISDemo;
+			productName = DisneylandArcGISDemo;
+			productReference = 1AF184CE1B1D60EE00EF202A /* DisneylandArcGISDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AF184E21B1D60EE00EF202A /* DisneylandArcGISDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF184F01B1D60EE00EF202A /* Build configuration list for PBXNativeTarget "DisneylandArcGISDemoTests" */;
+			buildPhases = (
+				1AF184DF1B1D60EE00EF202A /* Sources */,
+				1AF184E01B1D60EE00EF202A /* Frameworks */,
+				1AF184E11B1D60EE00EF202A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AF184E51B1D60EE00EF202A /* PBXTargetDependency */,
+			);
+			name = DisneylandArcGISDemoTests;
+			productName = DisneylandArcGISDemoTests;
+			productReference = 1AF184E31B1D60EE00EF202A /* DisneylandArcGISDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AF184C61B1D60EE00EF202A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = JCubedApps;
+				TargetAttributes = {
+					1AF184CD1B1D60EE00EF202A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1AF184E21B1D60EE00EF202A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1AF184CD1B1D60EE00EF202A;
+					};
+				};
+			};
+			buildConfigurationList = 1AF184C91B1D60EE00EF202A /* Build configuration list for PBXProject "DisneylandArcGISDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AF184C51B1D60EE00EF202A;
+			productRefGroup = 1AF184CF1B1D60EE00EF202A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AF184CD1B1D60EE00EF202A /* DisneylandArcGISDemo */,
+				1AF184E21B1D60EE00EF202A /* DisneylandArcGISDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AF184CC1B1D60EE00EF202A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF184D91B1D60EE00EF202A /* Main.storyboard in Resources */,
+				1AF184DE1B1D60EE00EF202A /* LaunchScreen.xib in Resources */,
+				1AF184DB1B1D60EE00EF202A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF184E11B1D60EE00EF202A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF184CA1B1D60EE00EF202A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF184D61B1D60EE00EF202A /* ViewController.swift in Sources */,
+				1AF184D41B1D60EE00EF202A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF184DF1B1D60EE00EF202A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF184EA1B1D60EE00EF202A /* DisneylandArcGISDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AF184E51B1D60EE00EF202A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AF184CD1B1D60EE00EF202A /* DisneylandArcGISDemo */;
+			targetProxy = 1AF184E41B1D60EE00EF202A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AF184D71B1D60EE00EF202A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AF184D81B1D60EE00EF202A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AF184DC1B1D60EE00EF202A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AF184DD1B1D60EE00EF202A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AF184EB1B1D60EE00EF202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AF184EC1B1D60EE00EF202A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AF184EE1B1D60EE00EF202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DisneylandArcGISDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AF184EF1B1D60EE00EF202A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DisneylandArcGISDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AF184F11B1D60EE00EF202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DisneylandArcGISDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneylandArcGISDemo.app/DisneylandArcGISDemo";
+			};
+			name = Debug;
+		};
+		1AF184F21B1D60EE00EF202A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DisneylandArcGISDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneylandArcGISDemo.app/DisneylandArcGISDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AF184C91B1D60EE00EF202A /* Build configuration list for PBXProject "DisneylandArcGISDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF184EB1B1D60EE00EF202A /* Debug */,
+				1AF184EC1B1D60EE00EF202A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF184ED1B1D60EE00EF202A /* Build configuration list for PBXNativeTarget "DisneylandArcGISDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF184EE1B1D60EE00EF202A /* Debug */,
+				1AF184EF1B1D60EE00EF202A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AF184F01B1D60EE00EF202A /* Build configuration list for PBXNativeTarget "DisneylandArcGISDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF184F11B1D60EE00EF202A /* Debug */,
+				1AF184F21B1D60EE00EF202A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AF184C61B1D60EE00EF202A /* Project object */;
+}
