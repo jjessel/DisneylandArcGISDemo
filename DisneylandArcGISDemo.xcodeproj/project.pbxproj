@@ -13,8 +13,6 @@
 		1AF184DB1B1D60EE00EF202A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF184DA1B1D60EE00EF202A /* Images.xcassets */; };
 		1AF184DE1B1D60EE00EF202A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AF184DC1B1D60EE00EF202A /* LaunchScreen.xib */; };
 		1AF184EA1B1D60EE00EF202A /* DisneylandArcGISDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF184E91B1D60EE00EF202A /* DisneylandArcGISDemoTests.swift */; };
-		1AF184F51B1D611400EF202A /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1AF184F31B1D611400EF202A /* ArcGIS.bundle */; };
-		1AF184F61B1D611400EF202A /* ArcGIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF184F41B1D611400EF202A /* ArcGIS.framework */; };
 		1AF184F81B1D612400EF202A /* attractions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AF184F71B1D612400EF202A /* attractions.json */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +37,6 @@
 		1AF184E31B1D60EE00EF202A /* DisneylandArcGISDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneylandArcGISDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF184E81B1D60EE00EF202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AF184E91B1D60EE00EF202A /* DisneylandArcGISDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneylandArcGISDemoTests.swift; sourceTree = "<group>"; };
-		1AF184F31B1D611400EF202A /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
-		1AF184F41B1D611400EF202A /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ArcGIS.framework; sourceTree = "<group>"; };
 		1AF184F71B1D612400EF202A /* attractions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = attractions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF184F61B1D611400EF202A /* ArcGIS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,8 +61,6 @@
 		1AF184C51B1D60EE00EF202A = {
 			isa = PBXGroup;
 			children = (
-				1AF184F31B1D611400EF202A /* ArcGIS.bundle */,
-				1AF184F41B1D611400EF202A /* ArcGIS.framework */,
 				1AF184D01B1D60EE00EF202A /* DisneylandArcGISDemo */,
 				1AF184E61B1D60EE00EF202A /* DisneylandArcGISDemoTests */,
 				1AF184CF1B1D60EE00EF202A /* Products */,
@@ -204,7 +197,6 @@
 			files = (
 				1AF184D91B1D60EE00EF202A /* Main.storyboard in Resources */,
 				1AF184DE1B1D60EE00EF202A /* LaunchScreen.xib in Resources */,
-				1AF184F51B1D611400EF202A /* ArcGIS.bundle in Resources */,
 				1AF184DB1B1D60EE00EF202A /* Images.xcassets in Resources */,
 				1AF184F81B1D612400EF202A /* attractions.json in Resources */,
 			);
