@@ -11,7 +11,7 @@
                  "category":"Ride",
                  "latitude":"33.810998",
                  "longitude":"-117.917529",
-                 "description":"Take a trip throug space."
+                 "description":"Take a trip through space."
                  },
                  {
                  "attraction":"Splash Mountain",
@@ -28,7 +28,7 @@
                  "description":"Show off your driving skills."
                  },
                  {
-                 "attraction":"Pirates of the Carribbean",
+                 "attraction":"Pirates of the Caribbean",
                  "category":"Ride",
                  "latitude":"33.811246",
                  "longitude":"-117920829",
@@ -53,7 +53,7 @@
                  "category":"Ride",
                  "latitude":"33.812701",
                  "longitude":"-117.920389",
-                 "description":"A roarin good time."
+                 "description":"A roaring good time."
                  },
                  {
                  "attraction":"Indiana Jones",
